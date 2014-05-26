@@ -1,0 +1,12 @@
+﻿@model dynamic
+@{
+    ViewBag.Title = "Callback";
+}
+<h2>Üye Bilgileri</h2>
+<p>
+    <b>Ad:</b>: @Model.first_name
+</p>
+<p>
+    <b>Soyad:</b>: @Model.last_name
+</p>
+<img src="@Model.picture"/>
